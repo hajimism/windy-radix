@@ -27,7 +27,7 @@ const PopoverTrigger = styled(PopoverPrimitive.Trigger, {
   alignItems: "center",
   justifyContent: "center",
   rounded: "$base",
-  px: "$8",
+  px: "$4",
   lineHeight: 1,
   fontWeight: 500,
   height: "35px",
