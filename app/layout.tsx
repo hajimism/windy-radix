@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 
 import { StyleSheet } from "./stylesheet";
 
+import "@/style/tailwind.css";
+
 export const metadata = {
   title: "Windy Radix",
   description: "Radix UI Components styled in Tailwind taste.",
