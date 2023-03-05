@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 
+import { Toaster } from "@/components/ui/Toast";
+
 import { StyleSheet } from "./stylesheet";
 
 import "@/style/tailwind.css";
@@ -21,8 +23,9 @@ export default function RootLayout({
       <head>
         <StyleSheet />
       </head>
-      <body style={inter.style} className="p-4">
+      <body style={inter.style} className="p-4 min-h-screen">
         {children}
+        <Toaster />
       </body>
     </html>
   );
