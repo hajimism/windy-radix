@@ -25,13 +25,6 @@ export const Destructive: Story = {
   },
 };
 
-export const Ghost: Story = {
-  args: {
-    variant: "ghost",
-    children: "Ghost",
-  },
-};
-
 export const Outline: Story = {
   args: {
     variant: "outline",
@@ -43,6 +36,13 @@ export const Subtle: Story = {
   args: {
     variant: "subtle",
     children: "Subtle",
+  },
+};
+
+export const Ghost: Story = {
+  args: {
+    variant: "ghost",
+    children: "Ghost",
   },
 };
 
