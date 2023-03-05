@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <StyleSheet />
       </head>
-      <body style={inter.style} className={"flex justify-center p-4"}>
+      <body style={inter.style} className="p-4">
         {children}
       </body>
     </html>
